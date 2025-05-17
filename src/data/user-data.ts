@@ -7,5 +7,36 @@ export const userData = {
   ],
   skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "GraphQL", "Docker", "UI/UX Principles"],
   email: "jane.doe@example.com",
-  resumeUrl: "https://drive.google.com/file/d/1IQRxkd0824bWJVbNHF-_HWwhrofTR3hB/view?usp=sharing",
+  courses: ["Modern JavaScript", "React - The Complete Guide", "Node.js, Express, MongoDB & More", "GraphQL: From Zero To Production"],
+  linkedinUrl: "https://www.linkedin.com/in/ankit-sharma-dev/",
+  githubUrl: "https://github.com/CrypticMessenger",
+  resumeUrl:
+    "https://drive.google.com/file/d/1IQRxkd0824bWJVbNHF-_HWwhrofTR3hB/view?usp=sharing",
+  readingList: [
+    {
+      title: "The Pragmatic Programmer",
+      author: "David Thomas and Andrew Hunt",
+      coverImage: "/images/pragmatic_programmer.jpg", // Placeholder path
+      link: "https://pragprog.com/titles/tpp20/",
+    },
+    {
+      title: "Clean Code",
+      author: "Robert C. Martin",
+      coverImage: "/images/clean_code.jpg", // Placeholder path
+      link: "https://www.oreilly.com/library/view/clean-code/9780136083238/",
+    },
+    // Add more books here
+  ],
+  achievements: [
+    {
+      title: "AWS Certified Cloud Practitioner",
+      description: "Validated foundational cloud knowledge across AWS services.",
+      link: "https://www.credly.com/badges/...", // Replace with actual link
+    },
+    {
+      title: "Completed Google's Professional Data Science Course",
+      description: "Gained expertise in data analysis, machine learning, and data visualization.",
+      link: "https://coursera.org/verify/...", // Replace with actual link
+    },
+  ],
 };

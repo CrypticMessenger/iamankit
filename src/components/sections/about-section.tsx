@@ -53,6 +53,16 @@ const AboutSection = () => {
                     ))}
                   </div>
                 </div>
+                <div>
+                  <h3 className="text-xl font-semibold mb-3 text-foreground">Courses Completed</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {userData.courses.map((course) => (
+                      <Badge key={course} variant="secondary" className="px-3 py-1 text-sm bg-primary/10 text-primary border-primary/30">
+                        {course}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
               </CardContent>
             </div>
           </div>

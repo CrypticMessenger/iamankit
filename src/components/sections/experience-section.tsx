@@ -1,4 +1,5 @@
 import React from 'react';
+import { Briefcase } from 'lucide-react';
 
 const ExperienceSection: React.FC = () => {
   const experienceEntries = [
@@ -31,7 +32,15 @@ const ExperienceSection: React.FC = () => {
   return (
     <section id="experience" className="py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 text-center">Experience</h2>
+      <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl flex items-center justify-center gap-3">
+             <Briefcase className="h-10 w-10 text-primary" />
+             Experience
+          </h2>
+          <p className="mt-4 text-xl text-muted-foreground">
+            A selection of my recent work.
+          </p>
+        </div>
         <div className="timeline">
           {experienceEntries.map(entry => (
             <div key={entry.id} className="timeline-item mb-8 last:mb-0 flex items-start">

@@ -3,6 +3,8 @@ import Footer from '@/components/layout/footer';
 import AboutSection from '@/components/sections/about-section';
 import ProjectsSection from '@/components/sections/projects-section';
 import ContactSection from '@/components/sections/contact-section';
+import ReadingSection from '@/components/sections/reading-section';
+import AchievementsSection from '@/components/sections/achievements-section';
 import ExperienceSection from '@/components/sections/experience-section';
 
 export default function HomePage() {
@@ -11,8 +13,10 @@ export default function HomePage() {
       <Header />
       <main className="flex-grow">
         <AboutSection />
-        <ProjectsSection />
         <ExperienceSection />
+        <ProjectsSection />
+        <AchievementsSection />
+        <ReadingSection />
         <ContactSection />
       </main>
       <Footer />
