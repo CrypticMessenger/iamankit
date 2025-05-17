@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { SmoothScrollLink } from '@/components/ui/smooth-scroll-link';
 import { Button } from '@/components/ui/button';
-import { DownloadCloud, Briefcase, Linkedin, Github } from 'lucide-react';
+import { DownloadCloud, BrainCircuit, Linkedin, Github } from 'lucide-react';
 import { userData } from '@/data/user-data';
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 shadow-sm">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2" legacyBehavior={false}>
-          <Briefcase className="h-7 w-7 text-primary" />
+          <BrainCircuit className="h-7 w-7 text-primary" />
           <span className="text-2xl font-bold text-foreground">Ankit's Portfolio</span>
         </Link>
         
