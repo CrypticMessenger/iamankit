@@ -9,50 +9,50 @@ body {
 @layer base {
   :root {
     --background: 0 0% 96.1%; /* Light grey #F5F5F5 */
-    --foreground: 0 0% 3.9%; /* Dark grey for text */
+    --foreground: 240 10% 3.9%; /* Dark grey for text */
 
     --card: 0 0% 100%; /* White */
-    --card-foreground: 0 0% 3.9%; /* Dark grey for text on card */
+    --card-foreground: 240 10% 3.9%; /* Dark grey for text on card */
 
     --popover: 0 0% 100%; /* White */
-    --popover-foreground: 0 0% 3.9%;
+    --popover-foreground: 240 10% 3.9%;
 
-    --primary: 240 30% 75%; /* Muted purple #A9A9D1 */
-    --primary-foreground: 240 60% 98%; /* Very light lavender/white for text on primary */
+    --primary: 220 80% 30%; /* Deep blue */
+    --primary-foreground: 0 0% 98%; /* White */
 
-    --secondary: 240 60% 97%; /* Soft lavender #E6E6FA - for subtle backgrounds */
-    --secondary-foreground: 240 25% 55%; /* Muted purple for text on secondary */
+    --secondary: 0 0% 94%; /* Lighter grey for subtle backgrounds */
+    --secondary-foreground: 240 10% 3.9%; /* Dark grey */
 
-    --muted: 240 30% 90%; /* Lighter muted purple */
+    --muted: 0 0% 85%; /* Lighter grey */
     --muted-foreground: 0 0% 45.1%; /* Default muted foreground which offers good contrast */
 
-    --accent: 240 45% 85%; /* A slightly more saturated lavender for hover/focus highlights */
-    --accent-foreground: 240 10% 25%; /* Darker purple for text on accent for better readability */
-    
+    --accent: 220 80% 35%; /* Slightly lighter deep blue for hover/focus highlights */
+    --accent-foreground: 0 0% 98%; /* White */
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 0 0% 89.8%; /* Light grey border */
     --input: 0 0% 89.8%; /* Light grey input background */
-    --ring: 240 30% 65%; /* Muted purple for focus rings, slightly darker than primary */
+    --ring: 220 80% 40%; /* Deep blue for focus rings, slightly lighter than primary */
 
     --radius: 0.5rem;
 
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
+    --chart-1: 220 80% 30%; /* Deep blue */
+    --chart-2: 160 60% 35%; /* Forest green */
+    --chart-3: 30 80% 50%; /* Muted orange */
+    --chart-4: 280 65% 55%; /* Muted purple */
+    --chart-5: 340 75% 50%; /* Muted red */
   }
 
   .dark {
     --background: 240 10% 10%; /* Dark bluish-grey */
-    --foreground: 0 0% 98%; /* Almost white text */
+    --foreground: 0 0% 95%; /* Almost white text */
 
     --card: 240 10% 15%; /* Slightly lighter dark */
     --card-foreground: 0 0% 98%;
 
-    --popover: 240 10% 10%;
+    --popover: 240 10% 10%; /* Dark bluish-grey */
     --popover-foreground: 0 0% 98%;
 
     --primary: 240 30% 75%; /* Muted purple - can remain same or be slightly brighter */
@@ -66,7 +66,7 @@ body {
 
     --accent: 240 45% 85%; /* Lavender accent can work well on dark too */
     --accent-foreground: 240 10% 15%;
-
+    
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 

@@ -7,5 +7,5 @@ export const userData = {
   ],
   skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "GraphQL", "Docker", "UI/UX Principles"],
   email: "jane.doe@example.com",
-  resumeUrl: "/Portfolio_Vista_Resume.pdf", // User should place their resume PDF in the /public folder
+  resumeUrl: "https://drive.google.com/file/d/1IQRxkd0824bWJVbNHF-_HWwhrofTR3hB/view?usp=sharing",
 };
