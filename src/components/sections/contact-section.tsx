@@ -27,29 +27,23 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-center space-x-3">
-                  <div className="p-2 bg-primary rounded-full">
                   <Mail className="h-6 w-6 text-primary" />
-                  </div>
                   <a href={`mailto:${userData.email}`} className="text-lg text-muted-foreground hover:text-primary transition-colors">
                     {userData.email}
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
-                 <div className="p-2 bg-primary rounded-full">
                   <Phone className="h-6 w-6 text-primary" />
-                  </div>
-                  <span className="text-lg text-muted-foreground">(123) 456-7890</span> {/* Placeholder phone */}
+                  <span className="text-lg text-muted-foreground">{userData.mobile}</span> {/* Placeholder phone */}
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-6 w-6 text-primary" />
-                  <span className="text-lg text-muted-foreground">San Francisco, CA</span> {/* Placeholder location */}
+                  <span className="text-lg text-muted-foreground">{userData.basedOutOf}</span> {/* Placeholder location */}
                 </div>
               </CardContent>
               <CardContent className="space-y-4">
                 <div className="flex items-center space-x-3">
-                  <div className="p-2 bg-primary rounded-full">
-                    <Linkedin className="h-6 w-6 text-primary" />
-                  </div>
+                  <Linkedin className="h-6 w-6 text-primary" />
                   <a href={userData.linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-lg text-muted-foreground hover:text-primary transition-colors">
                     LinkedIn
                   </a>
