@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { SmoothScrollLink } from '@/components/ui/smooth-scroll-link';
 import { Button } from '@/components/ui/button';
-import { DownloadCloud, BrainCircuit, Linkedin, Github, Menu } from 'lucide-react';
+import { DownloadCloud, BrainCircuit, Linkedin, Github, Menu, Rss } from 'lucide-react';
 import { userData } from '@/data/user-data';
 import { ThemeToggleButton } from '@/components/ui/theme-toggle-button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
@@ -51,6 +51,9 @@ const Header = () => {
           <Link href={userData.githubUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Github className="h-6 w-6" />
           </Link>
+          <Link href="https://medium.com/@ankitsharma61016" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <Rss className="h-6 w-6" />
+          </Link>
         </nav>
 
         {/* Mobile Navigation */}
@@ -98,6 +101,11 @@ const Header = () => {
                   <SheetClose asChild>
                     <Link href={userData.githubUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                       <Github className="h-7 w-7" />
+                    </Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link href="https://medium.com/@ankitsharma61016" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                      <Rss className="h-7 w-7" />
                     </Link>
                   </SheetClose>
                 </div>
