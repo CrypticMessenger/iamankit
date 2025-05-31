@@ -1,31 +1,27 @@
 export const userData = {
   name: "Ankit Sharma",
   basedOutOf: "Bangalore, Karnataka, IN",
-  mobile: "+91 7014373887",
-  title: "Software Development Engineer @ Amazon | Systems & AI Enthusiast",
+  mobile: "+91-7014373887",
+  title: "B.Tech. - Computer Science and Engineering",
   bio: [
-    "I'm a Software Development Engineer at Amazon, currently working on Prime Video Payments. I build and maintain reliable, scalable systems that support regional expansion and high availability of payment options, ensuring a smooth binge-watching experience for millions.",
-    
-    "Previously, I interned at Amazon on the same team, where I led the design and rollout of a critical fault-injection framework across 5+ microservices, improving resilience testing significantly. I also authored low-level designs and implemented features directly in production pipelines.",
-    
-    "I’ve done research in NLP and ML at the University of Tartu, where I explored multi-modal meme understanding using models like BERT, CLIP, and ViLBERT. I’ve published papers, presented at international venues, and co-authored open-source codebases.",
-    
-    "I graduated from IIT Ropar, where I led development on multiple projects, mentored 100+ students as a teaching assistant, and participated in hackathons. I'm passionate about system design, distributed systems, and building real-world AI tools.",
-    
-    "Driven by curiosity and a constant urge to build, learn, and share.",
-    
-    "जिज्ञासा परायणः\nOne who is devoted to or driven by curiosity."
+    "Experienced in C/C++, Java, Python, and web technologies (HTML, CSS, JavaScript/TypeScript, React).",
+    "Proficient in database management (Postgresql, MongoDb) and development tools (Git, Docker, Postman).",
+    "Skilled in machine learning frameworks (Pytorch, Keras, TensorFlow, Scikit Learn) and data analysis libraries (Pandas, Matplotlib, Seaborn, NumPy).",
+    "Knowledgeable in various computer science domains including Data Structures, Algorithms, OS, DBMS, Computer Networks, and Software Engineering.",
+    "Completed coursework in Computer Vision, Computer Graphics, and Financial Derivative Pricing."
   ],
   skills: [
-    "Java", "Python", "Node.js", "React", "AWS", "DynamoDB", "Spring Boot", 
-    "TypeScript", "GraphQL", "PostgreSQL", "MongoDB", "Docker", "Kafka", 
-    "LLMs", "System Design", "ML Research"
+    "C/C++", "Java", "Python", "Postgresql(SQL)", "Jupyter", "Git", "RegEx",
+    "Postman", "HTML", "CSS", "JavaScript/TypeScript", "React", "Flutter",
+    "MongoDb(NoSQL)", "JUnit", "Docker", "Pytorch", "Keras", "TensorFlow",
+    "Scikit Learn", "Pandas", "Matplotlib", "Seaborn", "NumPy"
   ],
   email: "ankitsharma61016@gmail.com",
   courses: [
-    "Operating Systems", "Distributed Systems", "Computer Networks",
-    "Machine Learning", "Deep Learning", "Natural Language Processing",
-    "Database Systems", "Compiler Design", "Software Engineering"
+    "Data Structures", "Computer Architecture", "Computer Vision", "OS", "DBMS",
+    "Software Engineering", "Computer Networks", "Probability and Statistics",
+    "Economics", "Computer Graphics", "Financial Derivative Pricing",
+    "Professional English", "Emotion Regulation", "Cognitive Processes"
   ],
   linkedinUrl: "https://www.linkedin.com/in/ankit-sharma-dev/",
   githubUrl: "https://github.com/CrypticMessenger",
@@ -56,19 +52,49 @@ export const userData = {
   ],
   achievements: [
     {
-      title: "SDE Intern at Amazon",
-      description: "Designed and implemented a chaos testing framework used across Prime Video Payments microservices.",
-      link: "https://www.linkedin.com/in/ankit-sharma-dev/",
+      title: "Amazon ML School Mentee",
+      description: "Ranked in Top 3000; Selected for 4 week ML lecture series by Amazon’s Scientists",
+      link: ""
     },
     {
-      title: "Published Research on Meme Understanding",
-      description: "Explored CLIP, BERT, and ViLBERT on multimodal meme datasets. Accepted at IEEE BigMM 2022.",
-      link: "https://ieeexplore.ieee.org/document/9851976", // Actual paper link
+      title: "Rank 3, Antigranular’s differential privacy data science competition",
+      description: "Won 833 (Rs.74,000) as cash prize.",
+      link: ""
     },
     {
-      title: "Teaching Assistant for Software Engineering",
-      description: "Mentored over 100 students and helped design assignments and lectures for a semester-long course.",
-      link: "https://github.com/CrypticMessenger", // You can link a project or leave blank
+      title: "JEE Advanced 2020",
+      description: "All India Rank 1930, out of about 150K candidates.",
+      link: ""
+    },
+    {
+      title: "JEE Mains 2020",
+      description: "All India Rank 1009; Achieved 99.92 percentile out of about 1.1 Million candidates.",
+      link: ""
+    },
+    {
+      title: "Institute Academic Scholarship Prize",
+      description: "Awarded for academic excellence (top 7% of the students) at IIT Ropar.",
+      link: ""
+    },
+    {
+      title: "KVPY Scholar 2019",
+      description: "Honored with the prestigious KVPY Fellowship with All India Rank 756 among 100K+ candidates.",
+      link: ""
+    },
+    {
+      title: "Rank 2, Funalytics 2022",
+      description: "Among 1500+ participants in Flagship Data Analytics Competition by IIM, Raipur.",
+      link: ""
+    },
+    {
+      title: "National Finalist Smart India Hackathon 2022",
+      description: "Among 10,000 teams.",
+      link: ""
+    },
+    {
+      title: "National top 1%, NSEC Olympiad 2020",
+      description: "Among 30,000+ candidates in National Standard Examination of Chemistry Olympiad.",
+      link: ""
     }
   ],
 };
