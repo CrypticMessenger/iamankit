@@ -3,6 +3,7 @@ import { SmoothScrollLink } from '@/components/ui/smooth-scroll-link';
 import { Button } from '@/components/ui/button';
 import { DownloadCloud, BrainCircuit, Linkedin, Github, Menu } from 'lucide-react';
 import { userData } from '@/data/user-data';
+import { ThemeToggleButton } from '@/components/ui/theme-toggle-button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
 
 const Header = () => {
@@ -43,6 +44,7 @@ const Header = () => {
               Resume
             </Link>
           </Button>
+          <ThemeToggleButton />
           <Link href={userData.linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <Linkedin className="h-6 w-6" />
           </Link>
@@ -87,6 +89,7 @@ const Header = () => {
                   </Link>
                 </Button>
                 <div className="flex justify-center space-x-4 pt-4 border-t border-border/40">
+                  <ThemeToggleButton />
                   <SheetClose asChild>
                     <Link href={userData.linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                       <Linkedin className="h-7 w-7" />
