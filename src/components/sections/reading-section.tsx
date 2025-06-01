@@ -21,7 +21,7 @@ const ReadingSection: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {userData.readingList.map((book, index) => (
             <Card key={index} className="overflow-hidden shadow-xl flex flex-col">
-              <div className="relative w-full h-48"> {/* Adjust height as needed */}
+              <div className="relative w-full h-36"> {/* Adjust height as needed */}
                 <Image
                   src={book.coverImage}
                   alt={book.title}
