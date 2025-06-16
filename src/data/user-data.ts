@@ -54,16 +54,16 @@ export const userData = {
     {
       title: "Amazon ML School Mentee",
       description: "Ranked in Top 3000; Selected for 4 week ML lecture series by Amazon’s Scientists",
-      link: ""
+      link: "https://media.licdn.com/dms/image/v2/D4D2DAQGtYYaryFPujw/profile-treasury-image-shrink_8192_8192/profile-treasury-image-shrink_8192_8192/0/1699421663084?e=1750705200&v=beta&t=r3zhsZ-3wglZNxJ1j_txLTNW0u6cnKgNaTXpNjXSfEs"
     },
     {
       title: "Rank 3, Antigranular’s differential privacy data science competition",
-      description: "Won 833 (Rs.74,000) as cash prize.",
-      link: ""
+      description: "Won 833 EUR (Rs.74,000) as cash prize.",
+      link: "https://www.antigranular.com/competitions/64b6a51905c84284f93a3ffc"
     },
     {
       title: "JEE Advanced 2020",
-      description: "All India Rank 1930, out of about 150K candidates.",
+      description: "All India Rank 1930, out of about 150K JEE Mains qualified candidates.",
       link: ""
     },
     {
@@ -95,6 +95,11 @@ export const userData = {
       title: "National top 1%, NSEC Olympiad 2020",
       description: "Among 30,000+ candidates in National Standard Examination of Chemistry Olympiad.",
       link: ""
-    }
+    },
+    {
+      title: "Certificate of Merit - Logorithmic 2021",
+      description: "Secured 9th position for Logo designing competition for Inter IIT Tech Symphony.",
+      link: "https://ecertificate.iitr.ac.in/verification/de294c59-a949-4a0a-be09-856aaeff2b8e"
+    },
   ],
 };

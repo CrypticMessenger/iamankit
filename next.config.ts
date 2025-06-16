@@ -21,6 +21,24 @@ const nextConfig: NextConfig = {
         hostname: 'm.media-amazon.com',
         port: '',
         pathname: '/images/I/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'media.licdn.com',
+        port: '',
+        pathname: '/dms/image/v2/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ecertificate.iitr.ac.in',
+        port: '',
+        pathname: '/verification/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'assets.grok.com',
+        port: '',
+        pathname: '/users/**/generated/**/image.jpg',
       }
     ],
   },

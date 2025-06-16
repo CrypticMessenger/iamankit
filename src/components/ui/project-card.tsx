@@ -42,6 +42,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             </Link>
           </Button>
         )}
+        {project.ppt && (
+          <Button asChild variant="default" size="sm">
+            <Link href={project.ppt} target="_blank" rel="noopener noreferrer">
+              <ExternalLink className="mr-2 h-4 w-4" />
+              Presentation
+            </Link>
+          </Button>
+        )}
         {project.repoUrl && (
           <Button asChild variant="outline" size="sm">
             <Link href={project.repoUrl} target="_blank" rel="noopener noreferrer">
